@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+	background-image: url('https://i.ibb.co/TkdMtqQ/8533104.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: #99cfe0; /* Set text color to a slightly lighter shade */
+    font-size: 16px; /* Keep font size moderate */
+    font-weight: 400; /* Set font weight to normal */
+    line-height: 1.6; /* Keep line height for better spacing */
+}
+
+#videos, #services {
+    padding: 50px 0;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-container iframe {
+    margin: 10px;
+}
+
+.service {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
